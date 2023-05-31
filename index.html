@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINK CSS-->
+    <link rel="stylesheet" href="css/estilos.css" />
+    <!-- CDN FONT AWESOME-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- cdn swriper-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+   
+    <title>Seguros</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+          <h1>CHUBB</h1>
+        </a>
+        <ul>
+          <li><a href="#inicio">Contacto</a></li>
+          <li><a href="#planes">Servicios</a></li>
+          <li><a href="#servicios">Quienes somos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="inicio" class="inicio">
+      <div class="contenedor-inicio">
+        <h1>Tu tranquilidad no tiene precio</h1>
+        <h2>El seguro más completo del mercado</h2>
+        <p>TU FOLIO DE COTIZACIÓN ES: 122312387387434786</p>
+        <h3>GENERAL MOTORS 2020,AVEO</h3>
+        <div>
+          <p class="p-inicio">¿Como quieres pagar tu seguro?</p>
+          <select class="select-css">
+            <option value="mensual" class="opciones">MENSUAL</option>
+            <option value="semestral" class="opciones">SEMESTRAL</option>
+            <option value="anual" class="opciones">ANUAL</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="input-vigencia" class="p-inicio"
+            >Inicio de vigencia de tu poliza</label
+          >
+          <input
+            type="text"
+            name="input-vigencia"
+            id="input-vigencia"
+            class="input-vigencia"
+            placeholder="undefined"
+          />
+        </div>
+
+        
+          <label for="input-cupon" class="p-inicio-cupon">¿Tienes un cupon de descuento?</label>
+          
+            <input
+              type="text"
+              name="input-cupon"
+              id="input-cupon"
+              class="input-descuento"/>
+            <input
+              type="submit"
+              id="input-cupon"
+              value="Aplicar"
+              class="btn-cupon"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="planes" id="planes">
+      <h2 class="titulo-header">Seleccioná y personalizá tu plan</h2>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="card-planes">
+            <div class="card-header">
+              <div>
+                <h2>AMPLIA</h2>
+                <p class="logo">Más vendido</p>
+              </div>
+              <div class="precios">
+                <p class="precio">$810.55</p>
+                <p>mensual</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <input
+                type="checkbox"
+                id="checkUno"
+                name="checkUno"
+                checked="checked"
+              />
+              <label for="checkUno" class="label-check"
+                >Respaldamos tu responsabilidad civil
+              </label>
+
+              <input
+                type="checkbox"
+                id="checkDos"
+                name="checkDos"
+                checked="checked"
+              />
+              <label for="checkDos" class="label-check"
+                >Cubrimos tus accidentes personales
+              </label>
+
+              <input
+                type="checkbox"
+                id="checkTres"
+                name="checkTres"
+                checked="checked"
+              />
+              <label for="checkTres" class="label-check"
+                >Cubrimos tus daños materiales
+              </label>
+
+              <input type="checkbox" id="checkCuatro" name="checkCuatro" />
+              <label for="checkCuatro" class="label-check"
+                >Obtén un 10% más a la suma asegurada</label
+              >
+
+              <input type="checkbox" id="checkCinco" name="checkCinco" />
+              <label for="checkCinco" class="label-check"
+                >Te otorga el beneficio de no pagar ningun deducible</label
+              >
+
+              <a href="#" class="enlaceCardBody">¿Que mas cubre?</a>
+
+              <div class="datos-poliza">
+                <p class="p1">Tu folio: 129892894</p>
+                <p class="p2">Vigencia de 1 año</p>
+                <p class="p3">Pago mensual</p>
+                <p>Primer pago de MX$ 1859,76 + MAX$ 810,75</p>
+                <p>mensual</p>
+              </div>
+              <button class="planBtn">Seleccionar plan</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-planes">
+            <div class="card-header">
+              <div>
+                <h2>AMPLIA</h2>
+                <p class="logo">Más vendido</p>
+              </div>
+              <div class="precios">
+                <p class="precio">$810.55</p>
+                <p>mensual</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <input
+                type="checkbox"
+                id="checkUno"
+                name="checkUno"
+                checked="checked"
+              />
+              <label for="checkUno" class="label-check"
+                >Respaldamos tu responsabilidad civil
+              </label>
+
+              <input
+                type="checkbox"
+                id="checkDos"
+                name="checkDos"
+                checked="checked"
+              />
+              <label for="checkDos" class="label-check"
+                >Cubrimos tus accidentes personales
+              </label>
+
+              <input
+                type="checkbox"
+                id="checkTres"
+                name="checkTres"
+                checked="checked"
+              />
+              <label for="checkTres" class="label-check"
+                >Cubrimos tus daños materiales
+              </label>
+
+              <input type="checkbox" id="checkCuatro" name="checkCuatro" />
+              <label for="checkCuatro" class="label-check"
+                >Obtén un 10% más a la suma asegurada</label
+              >
+
+              <input type="checkbox" id="checkCinco" name="checkCinco" />
+              <label for="checkCinco" class="label-check"
+                >Te otorga el beneficio de no pagar ningun deducible</label
+              >
+
+              <a href="#" class="enlaceCardBody">¿Que mas cubre?</a>
+
+              <div class="datos-poliza">
+                <p class="p1">Tu folio: 129892894</p>
+                <p class="p2">Vigencia de 1 año</p>
+                <p class="p3">Pago mensual</p>
+                <p>Primer pago de MX$ 1859,76 + MAX$ 810,75</p>
+                <p>mensual</p>
+              </div>
+              <button class="planBtn">Seleccionar plan</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-planes">
+            <div class="card-header">
+              <div>
+                <h2>AMPLIA</h2>
+                <p class="logo">Más vendido</p>
+              </div>
+              <div class="precios">
+                <p class="precio">$810.55</p>
+                <p>mensual</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <input type="checkbox" id="checkUno" name="checkUno" checked="checked" />
+              <label for="checkUno" class="label-check">Respaldamos tu responsabilidad civil </label>
+              
+    
+              <input type="checkbox" id="checkDos" name="checkDos" checked="checked" />
+              <label for="checkDos" class="label-check">Cubrimos tus accidentes personales </label>
+              
+    
+              <input type="checkbox" id="checkTres" name="checkTres" checked="checked" />
+              <label for="checkTres" class="label-check">Cubrimos tus daños materiales </label>
+              
+    
+              <input type="checkbox" id="checkCuatro" name="checkCuatro" />
+              <label for="checkCuatro" class="label-check">Obtén un 10% más a la suma asegurada</label>
+              
+    
+              <input type="checkbox" id="checkCinco" name="checkCinco" />
+              <label for="checkCinco" class="label-check" >Te otorga el beneficio de no pagar ningun deducible</label>
+    
+              <a href="#" class="enlaceCardBody">¿Que mas cubre?</a>
+    
+              <div class="datos-poliza">
+                <p class="p1">Tu folio: 129892894</p>
+                <p class="p2">Vigencia de 1 año</p>
+                <p class="p3">Pago mensual</p>
+                <p>Primer pago de MX$ 1859,76 + MAX$ 810,75</p>
+                <p>mensual</p>
+              </div>
+              <button class="planBtn">Seleccionar plan</button>
+    
+      
+              
+            </div>
+            
+              
+    
+        
+           
+          </div>
+        
+        </div>
+        <div class="swiper-slide">
+          <div class="card-planes">
+            <div class="card-header">
+              <div>
+                <h2>AMPLIA</h2>
+                <p class="logo">Más vendido</p>
+              </div>
+              <div class="precios">
+                <p class="precio">$810.55</p>
+                <p>mensual</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <input type="checkbox" id="checkUno" name="checkUno" checked="checked" />
+              <label for="checkUno" class="label-check">Respaldamos tu responsabilidad civil </label>
+              
+    
+              <input type="checkbox" id="checkDos" name="checkDos" checked="checked" />
+              <label for="checkDos" class="label-check">Cubrimos tus accidentes personales </label>
+              
+    
+              <input type="checkbox" id="checkTres" name="checkTres" checked="checked" />
+              <label for="checkTres" class="label-check">Cubrimos tus daños materiales </label>
+              
+    
+              <input type="checkbox" id="checkCuatro" name="checkCuatro" />
+              <label for="checkCuatro" class="label-check">Obtén un 10% más a la suma asegurada</label>
+              
+    
+              <input type="checkbox" id="checkCinco" name="checkCinco" />
+              <label for="checkCinco" class="label-check" >Te otorga el beneficio de no pagar ningun deducible</label>
+    
+              <a href="#" class="enlaceCardBody">¿Que mas cubre?</a>
+    
+              <div class="datos-poliza">
+                <p class="p1">Tu folio: 129892894</p>
+                <p class="p2">Vigencia de 1 año</p>
+                <p class="p3">Pago mensual</p>
+                <p>Primer pago de MX$ 1859,76 + MAX$ 810,75</p>
+                <p>mensual</p>
+              </div>
+              <button class="planBtn">Seleccionar plan</button>
+    
+      
+              
+            </div>
+            
+              
+    
+        
+           
+          </div>
+        
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      
+    </div>
+    </section>
+    <section class="servicios" id="servicios">
+      <div class="card-servicios">
+        <div class="servicios-header">
+          <h1>¿Preferís hablar con una persona?</h1>
+          <a href="#" class="llamada">
+            <i class="fa-solid fa-phone-volume"></i>Llamar ahora</a>
+        </div>
+
+        <div class="servicios-body">
+          <h1>Servicios incluidos en todos los planes</h1>
+          <div class="body-card">
+            <i class="fa-solid fa-car-side car"></i>
+            <h3>Llegamos en menos de 60 minutos</h3>
+            <p>Tenemos mas de 450 ajustadores en mexico</p>
+          </div>
+          <div class="body-card">
+            <i class="fa-solid fa-circle-radiation auxilio"></i>
+            <h3>Asistencias 24/7</h3>
+            <p>Contamos con asistencias de grúa, carga de batería, cambio de llantas
+              ¡y más!...
+            </p>
+          </div>
+          <div class="body-card">
+            <i class="fa-regular fa-comments reclamos"></i>
+            <h3>Gestioná tus reclamos Online</h3>
+            <p>Reportá y dá seguimiento a tus reclamos 100% Online</p>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>
